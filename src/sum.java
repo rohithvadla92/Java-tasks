@@ -3,6 +3,7 @@ public class sum {
         int sum=0;
         int count = 1;
         for(int i=1; i<=1000;i++){
+            // logic
             if(i%3==0 && i%8==0) {
                 sum=sum+i;
                 count++;
